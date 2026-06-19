@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-37f543b67090cc8fd336.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						8
+					]
+				},
+				{
+					"build" : "lib/modKaHIPFiles",
+					"jsonFile" : "directory-lib.modKaHIPFiles-Debug-00c28488a0e7c9084e78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/modKaHIPFiles",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "extern/struction",
+					"jsonFile" : "directory-extern.struction-Debug-09a4e24ace0ee604601c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/struction",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "MMWIS",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "branch_reduce::@1b025d8a1e57e417c920",
+					"jsonFile" : "target-branch_reduce-Debug-af102b78214604a8c646.json",
+					"name" : "branch_reduce",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "branch_reduce_convergence::@1b025d8a1e57e417c920",
+					"jsonFile" : "target-branch_reduce_convergence-Debug-0af5627d86aa19f56f63.json",
+					"name" : "branch_reduce_convergence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cyclic_blow_up_convergency::@1b025d8a1e57e417c920",
+					"jsonFile" : "target-cyclic_blow_up_convergency-Debug-36a8027ae6b154d22ebb.json",
+					"name" : "cyclic_blow_up_convergency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "kernelization::@1b025d8a1e57e417c920",
+					"jsonFile" : "target-kernelization-Debug-d7056b42cf1f3ea05d6a.json",
+					"name" : "kernelization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lib_mmwis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib_mmwis-Debug-15c6cc1bdd394f190f33.json",
+					"name" : "lib_mmwis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libkaffpa::@1d786172b0ddfb184617",
+					"jsonFile" : "target-libkaffpa-Debug-3a3ccda52e056199ef0a.json",
+					"name" : "libkaffpa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libmapping::@1d786172b0ddfb184617",
+					"jsonFile" : "target-libmapping-Debug-b2febd3a06bd366542f7.json",
+					"name" : "libmapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libnodeordering::@1d786172b0ddfb184617",
+					"jsonFile" : "target-libnodeordering-Debug-3d19fcf1ccf1027f8322.json",
+					"name" : "libnodeordering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mmwis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mmwis-Debug-68bda089b92aa402be29.json",
+					"name" : "mmwis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "struction_checker::@1b025d8a1e57e417c920",
+					"jsonFile" : "target-struction_checker-Debug-c7f2ca1655b1f278155c.json",
+					"name" : "struction_checker",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug",
+		"source" : "/home/etud/Documents/Stage/KaMIS/mmwis"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "StableSolver_clique_greedy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StableSolver_clique_greedy-Debug-fa18bfbb633dd2f10a3d.json",
+					"name" : "StableSolver_clique_greedy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StableSolver_clique_local_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StableSolver_clique_local_search-Debug-5a10a5fdd8601d0a8be6.json",
+					"name" : "StableSolver_clique_local_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StableSolver_clique_milp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StableSolver_clique_milp-Debug-d15fc4e63ada1a71fabd.json",
+					"name" : "StableSolver_clique_milp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/etud/Documents/Stage/stablesolver/src/clique/build-algorithms-Desktop-Debug",
+		"source" : "/home/etud/Documents/Stage/stablesolver/src/clique/algorithms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

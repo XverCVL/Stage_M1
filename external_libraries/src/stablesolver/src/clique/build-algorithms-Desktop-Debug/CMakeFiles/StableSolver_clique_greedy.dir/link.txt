@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStableSolver_clique_greedy.a CMakeFiles/StableSolver_clique_greedy.dir/greedy.o
+/usr/bin/ranlib libStableSolver_clique_greedy.a

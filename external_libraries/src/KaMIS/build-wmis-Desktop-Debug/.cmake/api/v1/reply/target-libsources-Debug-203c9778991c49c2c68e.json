@@ -1,0 +1,615 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "liblibsources.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++14 -fPIC"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-value"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-result"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-stack-limit"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-funroll-loops"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/app"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/io"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/partition"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/tools"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/io"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/partition"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/tools"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/data_structure"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/ils"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/initial_mis"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/kernel"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/app"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/interface"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/algorithms"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure/matrix"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh/exchange"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh/galinier_combine"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-value"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-result"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-stack-limit"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-funroll-loops"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/app"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/io"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/partition"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/tools"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/io"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/partition"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/tools"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/data_structure"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/ils"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/initial_mis"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/lib/mis/kernel"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/app"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/interface"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/algorithms"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure/matrix"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh/exchange"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/etud/Documents/Stage/KaMIS/wmis/extern/KaHIP/lib/parallel_mh/galinier_combine"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		}
+	],
+	"id" : "libsources::@6890427a1f51a3e7e1df",
+	"name" : "libsources",
+	"nameOnDisk" : "liblibsources.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tools/mis_log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/ils/ils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/ils/local_search.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/initial_mis/greedy_mis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/initial_mis/greedy_vertex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/initial_mis/random_mis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/initial_mis/initial_mis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/data_structure/mis_permutation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/data_structure/candidate_list.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/data_structure/operation_log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/data_structure/priority_queues/bucket_array.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/kernel/branch_and_reduce_algorithm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/mis/kernel/reductions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/etud/Documents/Stage/KaMIS/extern/argtable3-3.0.3/argtable3.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStableSolver_clique_milp.a CMakeFiles/StableSolver_clique_milp.dir/milp.o
+/usr/bin/ranlib libStableSolver_clique_milp.a

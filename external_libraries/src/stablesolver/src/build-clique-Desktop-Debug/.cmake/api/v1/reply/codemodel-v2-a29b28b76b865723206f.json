@@ -1,0 +1,108 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d704b573a1727d63971f.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "algorithms",
+					"jsonFile" : "directory-algorithms-Debug-bc5ff2e32f6e381b18f8.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "algorithms",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "StableSolver_clique::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StableSolver_clique-Debug-8e2e73f4bf3fb90081ce.json",
+					"name" : "StableSolver_clique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StableSolver_clique_greedy::@c71d345dacd67b1639ba",
+					"jsonFile" : "target-StableSolver_clique_greedy-Debug-856ca7400c0b1450dbbf.json",
+					"name" : "StableSolver_clique_greedy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StableSolver_clique_local_search::@c71d345dacd67b1639ba",
+					"jsonFile" : "target-StableSolver_clique_local_search-Debug-d9b0169c3f2015307d83.json",
+					"name" : "StableSolver_clique_local_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StableSolver_clique_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StableSolver_clique_main-Debug-24a78fe6aa9984b7263a.json",
+					"name" : "StableSolver_clique_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StableSolver_clique_milp::@c71d345dacd67b1639ba",
+					"jsonFile" : "target-StableSolver_clique_milp-Debug-ba2d125ee79731d64bf9.json",
+					"name" : "StableSolver_clique_milp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/etud/Documents/Stage/stablesolver/src/build-clique-Desktop-Debug",
+		"source" : "/home/etud/Documents/Stage/stablesolver/src/clique"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

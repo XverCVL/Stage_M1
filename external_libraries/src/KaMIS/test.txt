@@ -1,0 +1,917 @@
+.
+├── app
+│   ├── configuration_mis.h
+│   ├── graphchecker.cpp
+│   ├── online_mis.cpp
+│   ├── parse_parameters.h
+│   ├── parse_parameters_omis.h
+│   ├── reduction_evomis.cpp
+│   └── sort_adjacencies.cpp
+├── build-mmwis-Desktop-Debug
+│   ├── CMakeCache.txt
+│   ├── CMakeCache.txt.prev
+│   ├── CMakeFiles
+│   │   ├── 3.31.6
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── FindOpenMP
+│   │   │   ├── ompver_C.bin
+│   │   │   └── ompver_CXX.bin
+│   │   └── pkgRedirects
+│   ├── extern
+│   │   └── struction
+│   │       └── CMakeFiles
+│   ├── lib
+│   │   └── modKaHIPFiles
+│   │       └── CMakeFiles
+│   └── qtcsettings.cmake
+├── build-wmis-Desktop-Debug
+│   ├── CMakeCache.txt
+│   ├── CMakeCache.txt.prev
+│   ├── CMakeFiles
+│   │   ├── 3.31.6
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   └── pkgRedirects
+│   └── qtcsettings.cmake
+├── cleanup.sh
+├── CMakeLists.txt
+├── CMakeLists.txt.user
+├── compile_withcmake.sh
+├── deploy
+│   ├── graphchecker
+│   ├── online_mis
+│   ├── redumis
+│   ├── sort_adjacencies
+│   ├── weighted_branch_reduce
+│   └── weighted_local_search
+├── docs
+│   └── user_guide.pdf
+├── Doxyfile
+├── examples
+│   ├── simple.graph
+│   └── weight_nodes.graph
+├── extern
+│   ├── argtable3-3.0.3
+│   │   ├── argtable3.c
+│   │   ├── argtable3.h
+│   │   ├── CMakeLists.txt
+│   │   ├── examples
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── echo.c
+│   │   │   ├── ls.c
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.nmake
+│   │   │   ├── multisyntax.c
+│   │   │   ├── mv.c
+│   │   │   ├── myprog.c
+│   │   │   ├── myprog_C89.c
+│   │   │   ├── testargtable3.c
+│   │   │   └── uname.c
+│   │   ├── LICENSE
+│   │   ├── Makefile
+│   │   ├── Makefile.nmake
+│   │   ├── README.md
+│   │   └── tests
+│   │       ├── CMakeLists.txt
+│   │       ├── CuTest.c
+│   │       ├── CuTest.h
+│   │       ├── Makefile
+│   │       ├── Makefile.nmake
+│   │       ├── testall.c
+│   │       ├── testargdate.c
+│   │       ├── testargdbl.c
+│   │       ├── testargfile.c
+│   │       ├── testargint.c
+│   │       ├── testarglit.c
+│   │       ├── testargrex.c
+│   │       └── testargstr.c
+│   └── KaHIP
+│       ├── app
+│       │   ├── balance_configuration.h
+│       │   └── configuration.h
+│       ├── interface
+│       │   ├── kaHIP_interface.cpp
+│       │   ├── kaHIP_interface.h
+│       │   ├── SConscript
+│       │   └── SConstruct
+│       └── lib
+│           ├── algorithms
+│           │   ├── cycle_search.cpp
+│           │   ├── cycle_search.h
+│           │   ├── push_relabel.cpp
+│           │   ├── push_relabel.h
+│           │   ├── strongly_connected_components.cpp
+│           │   ├── strongly_connected_components.h
+│           │   ├── topological_sort.cpp
+│           │   └── topological_sort.h
+│           ├── data_structure
+│           │   ├── flow_graph.h
+│           │   ├── graph_access.h
+│           │   ├── graph_hierarchy.cpp
+│           │   ├── graph_hierarchy.h
+│           │   ├── matrix
+│           │   │   ├── matrix.h
+│           │   │   └── normal_matrix.h
+│           │   ├── priority_queues
+│           │   │   ├── bucket_pq.h
+│           │   │   ├── maxNodeHeap.h
+│           │   │   └── priority_queue_interface.h
+│           │   └── union_find.h
+│           ├── definitions.h
+│           ├── io
+│           │   ├── graph_io.cpp
+│           │   └── graph_io.h
+│           ├── parallel_mh
+│           │   ├── diversifyer.h
+│           │   ├── exchange
+│           │   │   ├── exchanger.cpp
+│           │   │   └── exchanger.h
+│           │   ├── galinier_combine
+│           │   │   ├── construct_partition.cpp
+│           │   │   ├── construct_partition.h
+│           │   │   ├── gal_combine.cpp
+│           │   │   └── gal_combine.h
+│           │   ├── parallel_mh_async.cpp
+│           │   ├── parallel_mh_async.h
+│           │   ├── population.cpp
+│           │   └── population.h
+│           ├── partition
+│           │   ├── coarsening
+│           │   │   ├── clustering
+│           │   │   │   ├── node_ordering.cpp
+│           │   │   │   ├── node_ordering.h
+│           │   │   │   ├── size_constraint_label_propagation.cpp
+│           │   │   │   └── size_constraint_label_propagation.h
+│           │   │   ├── coarsening_configurator.h
+│           │   │   ├── coarsening.cpp
+│           │   │   ├── coarsening.h
+│           │   │   ├── contraction.cpp
+│           │   │   ├── contraction.h
+│           │   │   ├── edge_rating
+│           │   │   │   ├── edge_ratings.cpp
+│           │   │   │   └── edge_ratings.h
+│           │   │   ├── matching
+│           │   │   │   ├── compare_degrees.h
+│           │   │   │   ├── gpa
+│           │   │   │   │   ├── compare_rating.h
+│           │   │   │   │   ├── gpa_matching.cpp
+│           │   │   │   │   ├── gpa_matching.h
+│           │   │   │   │   ├── path.cpp
+│           │   │   │   │   ├── path.h
+│           │   │   │   │   ├── path_set.cpp
+│           │   │   │   │   └── path_set.h
+│           │   │   │   ├── matching.cpp
+│           │   │   │   ├── matching.h
+│           │   │   │   ├── random_matching.cpp
+│           │   │   │   └── random_matching.h
+│           │   │   └── stop_rules
+│           │   │       └── stop_rules.h
+│           │   ├── graph_partitioner.cpp
+│           │   ├── graph_partitioner.h
+│           │   ├── initial_partitioning
+│           │   │   ├── bipartition.cpp
+│           │   │   ├── bipartition.h
+│           │   │   ├── initial_partition_bipartition.cpp
+│           │   │   ├── initial_partition_bipartition.h
+│           │   │   ├── initial_partitioner.cpp
+│           │   │   ├── initial_partitioner.h
+│           │   │   ├── initial_partitioning.cpp
+│           │   │   ├── initial_partitioning.h
+│           │   │   └── initial_refinement
+│           │   │       ├── initial_refinement.cpp
+│           │   │       └── initial_refinement.h
+│           │   ├── partition_config.h
+│           │   ├── uncoarsening
+│           │   │   ├── refinement
+│           │   │   │   ├── cycle_improvements
+│           │   │   │   │   ├── advanced_models.cpp
+│           │   │   │   │   ├── advanced_models.h
+│           │   │   │   │   ├── augmented_Qgraph.cpp
+│           │   │   │   │   ├── augmented_Qgraph_fabric.cpp
+│           │   │   │   │   ├── augmented_Qgraph_fabric.h
+│           │   │   │   │   ├── augmented_Qgraph.h
+│           │   │   │   │   ├── cycle_definitions.h
+│           │   │   │   │   ├── cycle_refinement.cpp
+│           │   │   │   │   ├── cycle_refinement.h
+│           │   │   │   │   ├── greedy_neg_cycle.cpp
+│           │   │   │   │   ├── greedy_neg_cycle.h
+│           │   │   │   │   ├── problem_factory.cpp
+│           │   │   │   │   └── problem_factory.h
+│           │   │   │   ├── kway_graph_refinement
+│           │   │   │   │   ├── kway_graph_refinement_commons.cpp
+│           │   │   │   │   ├── kway_graph_refinement_commons.h
+│           │   │   │   │   ├── kway_graph_refinement_core.cpp
+│           │   │   │   │   ├── kway_graph_refinement_core.h
+│           │   │   │   │   ├── kway_graph_refinement.cpp
+│           │   │   │   │   ├── kway_graph_refinement.h
+│           │   │   │   │   ├── kway_stop_rule.h
+│           │   │   │   │   ├── multitry_kway_fm.cpp
+│           │   │   │   │   └── multitry_kway_fm.h
+│           │   │   │   ├── label_propagation_refinement
+│           │   │   │   │   ├── label_propagation_refinement.cpp
+│           │   │   │   │   └── label_propagation_refinement.h
+│           │   │   │   ├── mixed_refinement.cpp
+│           │   │   │   ├── mixed_refinement.h
+│           │   │   │   ├── quotient_graph_refinement
+│           │   │   │   │   ├── 2way_fm_refinement
+│           │   │   │   │   │   ├── partition_accept_rule.h
+│           │   │   │   │   │   ├── queue_selection_strategie.h
+│           │   │   │   │   │   ├── search_stop_rule.h
+│           │   │   │   │   │   ├── two_way_fm.cpp
+│           │   │   │   │   │   ├── two_way_fm.h
+│           │   │   │   │   │   └── vertex_moved_hashtable.h
+│           │   │   │   │   ├── boundary_lookup.h
+│           │   │   │   │   ├── complete_boundary.cpp
+│           │   │   │   │   ├── complete_boundary.h
+│           │   │   │   │   ├── flow_refinement
+│           │   │   │   │   │   ├── boundary_bfs.cpp
+│           │   │   │   │   │   ├── boundary_bfs.h
+│           │   │   │   │   │   ├── flow_solving_kernel
+│           │   │   │   │   │   │   ├── cut_flow_problem_solver.cpp
+│           │   │   │   │   │   │   └── cut_flow_problem_solver.h
+│           │   │   │   │   │   ├── most_balanced_minimum_cuts
+│           │   │   │   │   │   │   ├── most_balanced_minimum_cuts.cpp
+│           │   │   │   │   │   │   └── most_balanced_minimum_cuts.h
+│           │   │   │   │   │   ├── two_way_flow_refinement.cpp
+│           │   │   │   │   │   └── two_way_flow_refinement.h
+│           │   │   │   │   ├── partial_boundary.cpp
+│           │   │   │   │   ├── partial_boundary.h
+│           │   │   │   │   ├── quotient_graph_refinement.cpp
+│           │   │   │   │   ├── quotient_graph_refinement.h
+│           │   │   │   │   ├── quotient_graph_scheduling
+│           │   │   │   │   │   ├── active_block_quotient_graph_scheduler.cpp
+│           │   │   │   │   │   ├── active_block_quotient_graph_scheduler.h
+│           │   │   │   │   │   ├── quotient_graph_scheduling.cpp
+│           │   │   │   │   │   ├── quotient_graph_scheduling.h
+│           │   │   │   │   │   ├── simple_quotient_graph_scheduler.cpp
+│           │   │   │   │   │   └── simple_quotient_graph_scheduler.h
+│           │   │   │   │   └── two_way_refinement.h
+│           │   │   │   ├── refinement.cpp
+│           │   │   │   ├── refinement.h
+│           │   │   │   └── tabu_search
+│           │   │   │       ├── tabu_bucket_queue.h
+│           │   │   │       ├── tabu_moves_queue.h
+│           │   │   │       ├── tabu_search.cpp
+│           │   │   │       └── tabu_search.h
+│           │   │   ├── separator
+│           │   │   │   ├── vertex_separator_algorithm.cpp
+│           │   │   │   ├── vertex_separator_algorithm.h
+│           │   │   │   ├── vertex_separator_flow_solver.cpp
+│           │   │   │   └── vertex_separator_flow_solver.h
+│           │   │   ├── uncoarsening.cpp
+│           │   │   └── uncoarsening.h
+│           │   └── w_cycles
+│           │       ├── wcycle_partitioner.cpp
+│           │       └── wcycle_partitioner.h
+│           └── tools
+│               ├── graph_communication.cpp
+│               ├── graph_communication.h
+│               ├── graph_extractor.cpp
+│               ├── graph_extractor.h
+│               ├── graph_partition_assertions.h
+│               ├── macros_assertions.h
+│               ├── macros_common.h
+│               ├── misc.cpp
+│               ├── misc.h
+│               ├── mpi_tools.cpp
+│               ├── mpi_tools.h
+│               ├── partition_snapshooter.cpp
+│               ├── partition_snapshooter.h
+│               ├── quality_metrics.cpp
+│               ├── quality_metrics.h
+│               ├── random_functions.cpp
+│               ├── random_functions.h
+│               └── timer.h
+├── HowToMacOs.md
+├── img
+│   ├── generate-social-preview.py
+│   ├── isolateclique.png
+│   └── social-preview.png
+├── lib
+│   ├── data_structure
+│   │   ├── array_set.h
+│   │   ├── candidate_list.cpp
+│   │   ├── candidate_list.h
+│   │   ├── candidate_list_online.cpp
+│   │   ├── candidate_list_online.h
+│   │   ├── mis_permutation.cpp
+│   │   ├── mis_permutation.h
+│   │   ├── mis_permutation_online.cpp
+│   │   ├── mis_permutation_online.h
+│   │   ├── operation_log.cpp
+│   │   ├── operation_log.h
+│   │   ├── priority_queues
+│   │   │   ├── bucket_array.cpp
+│   │   │   └── bucket_array.h
+│   │   └── sparse_array_set.h
+│   ├── mis
+│   │   ├── evolutionary
+│   │   │   ├── combine
+│   │   │   │   ├── combine.cpp
+│   │   │   │   ├── combine.h
+│   │   │   │   ├── cover_combine.cpp
+│   │   │   │   ├── cover_combine.h
+│   │   │   │   ├── multiway_combine.cpp
+│   │   │   │   ├── multiway_combine.h
+│   │   │   │   ├── separator_combine.cpp
+│   │   │   │   └── separator_combine.h
+│   │   │   ├── diversifier.h
+│   │   │   ├── population_mis.cpp
+│   │   │   ├── population_mis.h
+│   │   │   ├── reduction_evolution.cpp
+│   │   │   ├── reduction_evolution.h
+│   │   │   ├── separator_pool.cpp
+│   │   │   └── separator_pool.h
+│   │   ├── hopcroft
+│   │   │   ├── bipartite_vertex_cover.cpp
+│   │   │   └── bipartite_vertex_cover.h
+│   │   ├── ils
+│   │   │   ├── ils.cpp
+│   │   │   ├── ils.h
+│   │   │   ├── local_search.cpp
+│   │   │   ├── local_search.h
+│   │   │   ├── local_search_online.cpp
+│   │   │   ├── local_search_online.h
+│   │   │   ├── online_ils.cpp
+│   │   │   └── online_ils.h
+│   │   ├── initial_mis
+│   │   │   ├── greedy_mis.cpp
+│   │   │   ├── greedy_mis.h
+│   │   │   ├── greedy_mis_online.cpp
+│   │   │   ├── greedy_mis_online.h
+│   │   │   ├── greedy_vertex.cpp
+│   │   │   ├── greedy_vertex.h
+│   │   │   ├── initial_mis.cpp
+│   │   │   ├── initial_mis.h
+│   │   │   ├── random_mis.cpp
+│   │   │   └── random_mis.h
+│   │   ├── kernel
+│   │   │   ├── branch_and_reduce_algorithm.cpp
+│   │   │   ├── branch_and_reduce_algorithm.h
+│   │   │   ├── fast_set.h
+│   │   │   ├── modified.cpp
+│   │   │   ├── modified.h
+│   │   │   └── ParFastKer
+│   │   │       ├── fast_reductions
+│   │   │       │   ├── extern
+│   │   │       │   │   └── KaHIP
+│   │   │       │   │       └── lib
+│   │   │       │   │           ├── data_structure
+│   │   │       │   │           │   ├── graph_access.h
+│   │   │       │   │           │   └── priority_queues
+│   │   │       │   │           │       ├── maxNodeHeap.h
+│   │   │       │   │           │       └── priority_queue_interface.h
+│   │   │       │   │           ├── definitions.h
+│   │   │       │   │           ├── io
+│   │   │       │   │           │   ├── graph_io.cpp
+│   │   │       │   │           │   └── graph_io.h
+│   │   │       │   │           └── tools
+│   │   │       │   │               ├── macros_assertions.h
+│   │   │       │   │               ├── macros_common.h
+│   │   │       │   │               └── timer.h
+│   │   │       │   └── src
+│   │   │       │       ├── ArraySet.h
+│   │   │       │       ├── bucket_pq.h
+│   │   │       │       ├── configuration_mis.h
+│   │   │       │       ├── data_structures
+│   │   │       │       │   └── array_set.h
+│   │   │       │       ├── fast_set.h
+│   │   │       │       ├── full_reductions.cpp
+│   │   │       │       ├── full_reductions.h
+│   │   │       │       ├── MaximumMatching.cpp
+│   │   │       │       ├── MaximumMatching.h
+│   │   │       │       ├── parallel_reductions.cpp
+│   │   │       │       ├── parallel_reductions.h
+│   │   │       │       ├── ProfilingHelper.h
+│   │   │       │       ├── Reduction.h
+│   │   │       │       ├── SimpleSet.h
+│   │   │       │       └── SparseArraySet.h
+│   │   │       └── LinearTime
+│   │   │           └── MIS_sigmod_pub
+│   │   │               ├── Graph.cpp
+│   │   │               ├── Graph.h
+│   │   │               ├── Utility.cpp
+│   │   │               └── Utility.h
+│   │   └── mis_config.h
+│   └── tools
+│       ├── mis_log.cpp
+│       └── mis_log.h
+├── LICENSE
+├── misc
+│   ├── conversion
+│   │   ├── brock200_1.graph
+│   │   ├── brock200_1-sorted.graph
+│   │   ├── dimacs_to_metis.py
+│   │   ├── metis_to_dimacs.py
+│   │   └── sort_metis.py
+│   └── cpp.vim
+├── mmwis
+│   ├── app
+│   │   ├── configuration_mis.h
+│   │   ├── mmwis.cpp
+│   │   ├── parse_parameters.h
+│   │   └── weighted_reduce.cpp
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt.user
+│   ├── compile.sh
+│   ├── deploy
+│   ├── extern
+│   │   ├── argtable3-3.2.1
+│   │   │   ├── argtable3.c
+│   │   │   ├── argtable3.h
+│   │   │   ├── examples
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── echo.c
+│   │   │   │   ├── ls.c
+│   │   │   │   ├── multisyntax.c
+│   │   │   │   ├── mv.c
+│   │   │   │   ├── myprog.c
+│   │   │   │   ├── myprog_C89.c
+│   │   │   │   ├── testargtable3.c
+│   │   │   │   └── uname.c
+│   │   │   ├── LICENSE
+│   │   │   ├── README.md
+│   │   │   └── tests
+│   │   │       ├── argtable3_private.h
+│   │   │       ├── CMakeLists.txt
+│   │   │       ├── CuTest.c
+│   │   │       ├── CuTest.h
+│   │   │       ├── testall.c
+│   │   │       ├── testargcmd.c
+│   │   │       ├── testargdate.c
+│   │   │       ├── testargdbl.c
+│   │   │       ├── testargdstr.c
+│   │   │       ├── testargfile.c
+│   │   │       ├── testarghashtable.c
+│   │   │       ├── testargint.c
+│   │   │       ├── testarglit.c
+│   │   │       ├── testargrex.c
+│   │   │       └── testargstr.c
+│   │   ├── KaHIP
+│   │   └── struction
+│   │       ├── app
+│   │       │   ├── branch_reduce.cpp
+│   │       │   ├── configuration_mis.h
+│   │       │   ├── configuration_struction.h
+│   │       │   ├── cyclic_blow_up_convergency.cpp
+│   │       │   ├── kernelization.cpp
+│   │       │   ├── parse_parameters.h
+│   │       │   └── struction_checker.cpp
+│   │       ├── CMakeLists.txt
+│   │       └── lib
+│   │           ├── data_structure
+│   │           │   ├── mis_permutation.cpp
+│   │           │   ├── mis_permutation.h
+│   │           │   ├── priority_queues
+│   │           │   │   ├── bucket_array.cpp
+│   │           │   │   ├── bucket_array.h
+│   │           │   │   └── MaxHeap.h
+│   │           │   └── struction_dynamic_graph.h
+│   │           ├── mis
+│   │           │   ├── kernel
+│   │           │   │   ├── extended_struction.cpp
+│   │           │   │   ├── extended_struction.h
+│   │           │   │   ├── fast_set.h
+│   │           │   │   ├── key_functions.cpp
+│   │           │   │   ├── key_functions.h
+│   │           │   │   ├── mwis_finder.cpp
+│   │           │   │   ├── mwis_finder.h
+│   │           │   │   ├── original_struction.cpp
+│   │           │   │   ├── original_struction.h
+│   │           │   │   ├── ReduceAndPeel.h
+│   │           │   │   ├── struction_branch_and_reduce_algorithm.cpp
+│   │           │   │   ├── struction_branch_and_reduce_algorithm.h
+│   │           │   │   ├── struction_reductions.cpp
+│   │           │   │   ├── struction_reductions.h
+│   │           │   │   └── struction_vertex_marker.h
+│   │           │   └── mis_config.h
+│   │           └── tools
+│   │               ├── mis_log.cpp
+│   │               └── mis_log.h
+│   └── lib
+│       ├── data_structure
+│       │   ├── array_set.h
+│       │   ├── candidate_list.cpp
+│       │   ├── candidate_list.h
+│       │   ├── dynamic_graph.h
+│       │   ├── fast_node_set.h
+│       │   ├── mis_permutation.cpp
+│       │   ├── mis_permutation.h
+│       │   ├── operation_log.cpp
+│       │   ├── operation_log.h
+│       │   ├── priority_queues
+│       │   │   ├── bucket_array.cpp
+│       │   │   ├── bucket_array.h
+│       │   │   ├── float_pq.h
+│       │   │   ├── MaxHeap.h
+│       │   │   └── maxNodeHeap.h
+│       │   ├── sized_vector.h
+│       │   └── sparse_array_set.h
+│       ├── mis
+│       │   ├── evolutionary
+│       │   │   ├── combine
+│       │   │   │   ├── combine.cpp
+│       │   │   │   ├── combine.h
+│       │   │   │   ├── cover_combine.cpp
+│       │   │   │   ├── cover_combine.h
+│       │   │   │   ├── multiway_combine.cpp
+│       │   │   │   ├── multiway_combine.h
+│       │   │   │   ├── separator_combine.cpp
+│       │   │   │   └── separator_combine.h
+│       │   │   ├── diversifier.h
+│       │   │   ├── population_mis.cpp
+│       │   │   ├── population_mis.h
+│       │   │   ├── reduction_evolution.cpp
+│       │   │   ├── reduction_evolution.h
+│       │   │   ├── separator_pool.cpp
+│       │   │   └── separator_pool.h
+│       │   ├── hils
+│       │   │   ├── hils.h
+│       │   │   ├── Solution.cpp
+│       │   │   └── Solution.h
+│       │   ├── ils
+│       │   │   ├── ils.cpp
+│       │   │   ├── ils.h
+│       │   │   ├── local_search.cpp
+│       │   │   └── local_search.h
+│       │   ├── initial_mis
+│       │   │   ├── cyclicFast.cpp
+│       │   │   ├── cyclicFast.h
+│       │   │   ├── greedy_mis.cpp
+│       │   │   ├── greedy_mis.h
+│       │   │   ├── greedy_mwis.cpp
+│       │   │   ├── greedy_mwis.h
+│       │   │   ├── greedy_vertex.cpp
+│       │   │   ├── greedy_vertex.h
+│       │   │   ├── greedy_weighted_vertex.cpp
+│       │   │   ├── greedy_weighted_vertex.h
+│       │   │   ├── initial_mis.cpp
+│       │   │   ├── initial_mis.h
+│       │   │   ├── random_mis.cpp
+│       │   │   └── random_mis.h
+│       │   ├── kernel
+│       │   │   ├── branch_and_reduce_algorithm.cpp
+│       │   │   ├── branch_and_reduce_algorithm.h
+│       │   │   ├── cout_handler.cpp
+│       │   │   ├── cout_handler.h
+│       │   │   ├── fast_set.h
+│       │   │   ├── reductions.cpp
+│       │   │   ├── reductions.h
+│       │   │   └── vertex_marker.h
+│       │   ├── max_flow
+│       │   │   ├── bipartite_weighted_vertex_cover.cpp
+│       │   │   └── bipartite_weighted_vertex_cover.h
+│       │   └── mmwis_config.h
+│       ├── modKaHIPFiles
+│       │   ├── CMakeLists.txt
+│       │   ├── interface
+│       │   │   ├── kaHIP_interface.cpp
+│       │   │   └── kaHIP_interface.h
+│       │   └── lib
+│       │       └── data_structure
+│       │           └── graph_access.h
+│       └── tools
+│           ├── mmwis_log.cpp
+│           └── mmwis_log.h
+├── README.md
+├── test.txt
+└── wmis
+    ├── app
+    │   ├── branch_reduce.cpp
+    │   ├── configuration_mis.h
+    │   ├── merge_graph_weights.cpp
+    │   ├── parse_parameters.h
+    │   └── weighted_ls.cpp
+    ├── CMakeLists.txt
+    ├── CMakeLists.txt.user
+    ├── extern
+    │   ├── argtable3-3.0.3
+    │   │   ├── argtable3.c
+    │   │   ├── argtable3.h
+    │   │   ├── CMakeLists.txt
+    │   │   ├── examples
+    │   │   │   ├── CMakeLists.txt
+    │   │   │   ├── echo.c
+    │   │   │   ├── ls.c
+    │   │   │   ├── Makefile
+    │   │   │   ├── Makefile.nmake
+    │   │   │   ├── multisyntax.c
+    │   │   │   ├── mv.c
+    │   │   │   ├── myprog.c
+    │   │   │   ├── myprog_C89.c
+    │   │   │   ├── testargtable3.c
+    │   │   │   └── uname.c
+    │   │   ├── LICENSE
+    │   │   ├── Makefile
+    │   │   ├── Makefile.nmake
+    │   │   ├── README.md
+    │   │   └── tests
+    │   │       ├── CMakeLists.txt
+    │   │       ├── CuTest.c
+    │   │       ├── CuTest.h
+    │   │       ├── Makefile
+    │   │       ├── Makefile.nmake
+    │   │       ├── testall.c
+    │   │       ├── testargdate.c
+    │   │       ├── testargdbl.c
+    │   │       ├── testargfile.c
+    │   │       ├── testargint.c
+    │   │       ├── testarglit.c
+    │   │       ├── testargrex.c
+    │   │       └── testargstr.c
+    │   └── KaHIP
+    │       ├── interface
+    │       │   ├── kaHIP_interface.cpp
+    │       │   ├── kaHIP_interface.h
+    │       │   ├── SConscript
+    │       │   └── SConstruct
+    │       ├── lib
+    │       │   ├── algorithms
+    │       │   │   ├── cycle_search.cpp
+    │       │   │   ├── cycle_search.h
+    │       │   │   ├── push_relabel.cpp
+    │       │   │   ├── push_relabel.h
+    │       │   │   ├── strongly_connected_components.cpp
+    │       │   │   ├── strongly_connected_components.h
+    │       │   │   ├── topological_sort.cpp
+    │       │   │   └── topological_sort.h
+    │       │   ├── data_structure
+    │       │   │   ├── flow_graph.h
+    │       │   │   ├── graph_access.h
+    │       │   │   ├── graph_hierarchy.cpp
+    │       │   │   ├── graph_hierarchy.h
+    │       │   │   ├── matrix
+    │       │   │   │   ├── matrix.h
+    │       │   │   │   ├── normal_matrix.h
+    │       │   │   │   └── online_distance_matrix.h
+    │       │   │   ├── priority_queues
+    │       │   │   │   ├── bucket_pq.h
+    │       │   │   │   ├── maxNodeHeap.h
+    │       │   │   │   └── priority_queue_interface.h
+    │       │   │   └── union_find.h
+    │       │   ├── definitions.h
+    │       │   ├── io
+    │       │   │   ├── graph_io.cpp
+    │       │   │   └── graph_io.h
+    │       │   ├── mapping
+    │       │   │   ├── communication_graph_search_space.cpp
+    │       │   │   ├── communication_graph_search_space.h
+    │       │   │   ├── construct_distance_matrix.cpp
+    │       │   │   ├── construct_distance_matrix.h
+    │       │   │   ├── construct_mapping.cpp
+    │       │   │   ├── construct_mapping.h
+    │       │   │   ├── fast_construct_mapping.cpp
+    │       │   │   ├── fast_construct_mapping.h
+    │       │   │   ├── full_search_space.cpp
+    │       │   │   ├── full_search_space.h
+    │       │   │   ├── full_search_space_pruned.cpp
+    │       │   │   ├── full_search_space_pruned.h
+    │       │   │   ├── local_search_mapping.cpp
+    │       │   │   ├── local_search_mapping.h
+    │       │   │   ├── mapping_algorithms.cpp
+    │       │   │   └── mapping_algorithms.h
+    │       │   ├── parallel_mh
+    │       │   │   ├── diversifyer.h
+    │       │   │   ├── exchange
+    │       │   │   │   ├── exchanger.cpp
+    │       │   │   │   └── exchanger.h
+    │       │   │   ├── galinier_combine
+    │       │   │   │   ├── construct_partition.cpp
+    │       │   │   │   ├── construct_partition.h
+    │       │   │   │   ├── gal_combine.cpp
+    │       │   │   │   └── gal_combine.h
+    │       │   │   ├── parallel_mh_async.cpp
+    │       │   │   ├── parallel_mh_async.h
+    │       │   │   ├── population.cpp
+    │       │   │   └── population.h
+    │       │   ├── partition
+    │       │   │   ├── coarsening
+    │       │   │   │   ├── clustering
+    │       │   │   │   │   ├── node_ordering.cpp
+    │       │   │   │   │   ├── node_ordering.h
+    │       │   │   │   │   ├── size_constraint_label_propagation.cpp
+    │       │   │   │   │   └── size_constraint_label_propagation.h
+    │       │   │   │   ├── coarsening_configurator.h
+    │       │   │   │   ├── coarsening.cpp
+    │       │   │   │   ├── coarsening.h
+    │       │   │   │   ├── contraction.cpp
+    │       │   │   │   ├── contraction.h
+    │       │   │   │   ├── edge_rating
+    │       │   │   │   │   ├── edge_ratings.cpp
+    │       │   │   │   │   └── edge_ratings.h
+    │       │   │   │   ├── matching
+    │       │   │   │   │   ├── compare_degrees.h
+    │       │   │   │   │   ├── gpa
+    │       │   │   │   │   │   ├── compare_rating.h
+    │       │   │   │   │   │   ├── gpa_matching.cpp
+    │       │   │   │   │   │   ├── gpa_matching.h
+    │       │   │   │   │   │   ├── path.cpp
+    │       │   │   │   │   │   ├── path.h
+    │       │   │   │   │   │   ├── path_set.cpp
+    │       │   │   │   │   │   └── path_set.h
+    │       │   │   │   │   ├── matching.cpp
+    │       │   │   │   │   ├── matching.h
+    │       │   │   │   │   ├── random_matching.cpp
+    │       │   │   │   │   └── random_matching.h
+    │       │   │   │   └── stop_rules
+    │       │   │   │       └── stop_rules.h
+    │       │   │   ├── graph_partitioner.cpp
+    │       │   │   ├── graph_partitioner.h
+    │       │   │   ├── initial_partitioning
+    │       │   │   │   ├── bipartition.cpp
+    │       │   │   │   ├── bipartition.h
+    │       │   │   │   ├── initial_node_separator.cpp
+    │       │   │   │   ├── initial_node_separator.h
+    │       │   │   │   ├── initial_partition_bipartition.cpp
+    │       │   │   │   ├── initial_partition_bipartition.h
+    │       │   │   │   ├── initial_partitioner.cpp
+    │       │   │   │   ├── initial_partitioner.h
+    │       │   │   │   ├── initial_partitioning.cpp
+    │       │   │   │   ├── initial_partitioning.h
+    │       │   │   │   └── initial_refinement
+    │       │   │   │       ├── initial_refinement.cpp
+    │       │   │   │       └── initial_refinement.h
+    │       │   │   ├── partition_config.h
+    │       │   │   ├── uncoarsening
+    │       │   │   │   ├── refinement
+    │       │   │   │   │   ├── cycle_improvements
+    │       │   │   │   │   │   ├── advanced_models.cpp
+    │       │   │   │   │   │   ├── advanced_models.h
+    │       │   │   │   │   │   ├── augmented_Qgraph.cpp
+    │       │   │   │   │   │   ├── augmented_Qgraph_fabric.cpp
+    │       │   │   │   │   │   ├── augmented_Qgraph_fabric.h
+    │       │   │   │   │   │   ├── augmented_Qgraph.h
+    │       │   │   │   │   │   ├── cycle_definitions.h
+    │       │   │   │   │   │   ├── cycle_refinement.cpp
+    │       │   │   │   │   │   ├── cycle_refinement.h
+    │       │   │   │   │   │   ├── greedy_neg_cycle.cpp
+    │       │   │   │   │   │   ├── greedy_neg_cycle.h
+    │       │   │   │   │   │   ├── problem_factory.cpp
+    │       │   │   │   │   │   └── problem_factory.h
+    │       │   │   │   │   ├── kway_graph_refinement
+    │       │   │   │   │   │   ├── kway_graph_refinement_commons.cpp
+    │       │   │   │   │   │   ├── kway_graph_refinement_commons.h
+    │       │   │   │   │   │   ├── kway_graph_refinement_core.cpp
+    │       │   │   │   │   │   ├── kway_graph_refinement_core.h
+    │       │   │   │   │   │   ├── kway_graph_refinement.cpp
+    │       │   │   │   │   │   ├── kway_graph_refinement.h
+    │       │   │   │   │   │   ├── kway_stop_rule.h
+    │       │   │   │   │   │   ├── multitry_kway_fm.cpp
+    │       │   │   │   │   │   └── multitry_kway_fm.h
+    │       │   │   │   │   ├── label_propagation_refinement
+    │       │   │   │   │   │   ├── label_propagation_refinement.cpp
+    │       │   │   │   │   │   └── label_propagation_refinement.h
+    │       │   │   │   │   ├── mixed_refinement.cpp
+    │       │   │   │   │   ├── mixed_refinement.h
+    │       │   │   │   │   ├── node_separators
+    │       │   │   │   │   │   ├── fm_ns_local_search.cpp
+    │       │   │   │   │   │   ├── fm_ns_local_search.h
+    │       │   │   │   │   │   ├── greedy_ns_local_search.cpp
+    │       │   │   │   │   │   ├── greedy_ns_local_search.h
+    │       │   │   │   │   │   ├── localized_fm_ns_local_search.cpp
+    │       │   │   │   │   │   └── localized_fm_ns_local_search.h
+    │       │   │   │   │   ├── quotient_graph_refinement
+    │       │   │   │   │   │   ├── 2way_fm_refinement
+    │       │   │   │   │   │   │   ├── partition_accept_rule.h
+    │       │   │   │   │   │   │   ├── queue_selection_strategie.h
+    │       │   │   │   │   │   │   ├── search_stop_rule.h
+    │       │   │   │   │   │   │   ├── two_way_fm.cpp
+    │       │   │   │   │   │   │   ├── two_way_fm.h
+    │       │   │   │   │   │   │   └── vertex_moved_hashtable.h
+    │       │   │   │   │   │   ├── boundary_lookup.h
+    │       │   │   │   │   │   ├── complete_boundary.cpp
+    │       │   │   │   │   │   ├── complete_boundary.h
+    │       │   │   │   │   │   ├── flow_refinement
+    │       │   │   │   │   │   │   ├── boundary_bfs.cpp
+    │       │   │   │   │   │   │   ├── boundary_bfs.h
+    │       │   │   │   │   │   │   ├── flow_solving_kernel
+    │       │   │   │   │   │   │   │   ├── cut_flow_problem_solver.cpp
+    │       │   │   │   │   │   │   │   └── cut_flow_problem_solver.h
+    │       │   │   │   │   │   │   ├── most_balanced_minimum_cuts
+    │       │   │   │   │   │   │   │   ├── most_balanced_minimum_cuts.cpp
+    │       │   │   │   │   │   │   │   └── most_balanced_minimum_cuts.h
+    │       │   │   │   │   │   │   ├── two_way_flow_refinement.cpp
+    │       │   │   │   │   │   │   └── two_way_flow_refinement.h
+    │       │   │   │   │   │   ├── partial_boundary.cpp
+    │       │   │   │   │   │   ├── partial_boundary.h
+    │       │   │   │   │   │   ├── quotient_graph_refinement.cpp
+    │       │   │   │   │   │   ├── quotient_graph_refinement.h
+    │       │   │   │   │   │   ├── quotient_graph_scheduling
+    │       │   │   │   │   │   │   ├── active_block_quotient_graph_scheduler.cpp
+    │       │   │   │   │   │   │   ├── active_block_quotient_graph_scheduler.h
+    │       │   │   │   │   │   │   ├── quotient_graph_scheduling.cpp
+    │       │   │   │   │   │   │   ├── quotient_graph_scheduling.h
+    │       │   │   │   │   │   │   ├── simple_quotient_graph_scheduler.cpp
+    │       │   │   │   │   │   │   └── simple_quotient_graph_scheduler.h
+    │       │   │   │   │   │   └── two_way_refinement.h
+    │       │   │   │   │   ├── refinement.cpp
+    │       │   │   │   │   ├── refinement.h
+    │       │   │   │   │   └── tabu_search
+    │       │   │   │   │       ├── tabu_bucket_queue.h
+    │       │   │   │   │       ├── tabu_moves_queue.h
+    │       │   │   │   │       ├── tabu_search.cpp
+    │       │   │   │   │       └── tabu_search.h
+    │       │   │   │   ├── separator
+    │       │   │   │   │   ├── area_bfs.cpp
+    │       │   │   │   │   ├── area_bfs.h
+    │       │   │   │   │   ├── vertex_separator_algorithm.cpp
+    │       │   │   │   │   ├── vertex_separator_algorithm.h
+    │       │   │   │   │   ├── vertex_separator_flow_solver.cpp
+    │       │   │   │   │   └── vertex_separator_flow_solver.h
+    │       │   │   │   ├── uncoarsening.cpp
+    │       │   │   │   └── uncoarsening.h
+    │       │   │   └── w_cycles
+    │       │   │       ├── wcycle_partitioner.cpp
+    │       │   │       └── wcycle_partitioner.h
+    │       │   ├── spac
+    │       │   │   ├── spac.cpp
+    │       │   │   └── spac.h
+    │       │   └── tools
+    │       │       ├── graph_communication.cpp
+    │       │       ├── graph_communication.h
+    │       │       ├── graph_extractor.cpp
+    │       │       ├── graph_extractor.h
+    │       │       ├── graph_partition_assertions.h
+    │       │       ├── macros_assertions.h
+    │       │       ├── macros_common.h
+    │       │       ├── misc.cpp
+    │       │       ├── misc.h
+    │       │       ├── mpi_tools.cpp
+    │       │       ├── mpi_tools.h
+    │       │       ├── partition_snapshooter.cpp
+    │       │       ├── partition_snapshooter.h
+    │       │       ├── quality_metrics.cpp
+    │       │       ├── quality_metrics.h
+    │       │       ├── random_functions.cpp
+    │       │       ├── random_functions.h
+    │       │       └── timer.h
+    │       └── LICENSE
+    └── lib
+        ├── data_structure
+        │   ├── array_set.h
+        │   ├── candidate_list.cpp
+        │   ├── candidate_list.h
+        │   ├── dynamic_graph.h
+        │   ├── mis_permutation.cpp
+        │   ├── mis_permutation.h
+        │   ├── operation_log.cpp
+        │   ├── operation_log.h
+        │   ├── priority_queues
+        │   │   ├── bucket_array.cpp
+        │   │   └── bucket_array.h
+        │   ├── sized_vector.h
+        │   └── sparse_array_set.h
+        ├── mis
+        │   ├── ils
+        │   │   ├── ils.cpp
+        │   │   ├── ils.h
+        │   │   ├── local_search.cpp
+        │   │   └── local_search.h
+        │   ├── initial_mis
+        │   │   ├── greedy_mis.cpp
+        │   │   ├── greedy_mis.h
+        │   │   ├── greedy_vertex.cpp
+        │   │   ├── greedy_vertex.h
+        │   │   ├── initial_mis.cpp
+        │   │   ├── initial_mis.h
+        │   │   ├── random_mis.cpp
+        │   │   └── random_mis.h
+        │   ├── kernel
+        │   │   ├── branch_and_reduce_algorithm.cpp
+        │   │   ├── branch_and_reduce_algorithm.h
+        │   │   ├── fast_set.h
+        │   │   ├── reductions.cpp
+        │   │   └── reductions.h
+        │   └── mis_config.h
+        └── tools
+            ├── mis_log.cpp
+            └── mis_log.h
+
+179 directories, 736 files

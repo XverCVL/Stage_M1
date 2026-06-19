@@ -1,0 +1,939 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "extern/struction/struction_checker"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"extern/struction/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -std=c++14 -fno-omit-frame-pointer -march=native -DNDEBUG -fPIC -O3  -g -std=c++11 -fPIE   -w -funroll-loops -fno-stack-limit -march=native -fpermissive -Wno-unused-value -Wno-unused-result -fopenmp"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/app"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/data_structure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/ils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/hils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/initial_mis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/kernel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/evolutionary"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/evolutionary/combine"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/mis/max_flow"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/argtable3-3.2.1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/lib/mis/kernel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/lib/data_structure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/interface"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/lib/data_structure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../data_structure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/app"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/io"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/algorithms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/partition"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/data_structure/priority_queues"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/lib/modKaHIPFiles/../../extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/app"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/lib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/lib/tools"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/etud/Documents/Stage/KaMIS/mmwis/extern/struction/lib/mis"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				96
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "lib_mmwis::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "libkaffpa::@1d786172b0ddfb184617"
+		}
+	],
+	"id" : "struction_checker::@1b025d8a1e57e417c920",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -std=c++14 -fno-omit-frame-pointer -march=native -DNDEBUG -fPIC -O3  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "struction_checker",
+	"nameOnDisk" : "struction_checker",
+	"paths" : 
+	{
+		"build" : "extern/struction",
+		"source" : "extern/struction"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				96
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extern/struction/lib/tools/mis_log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/io/graph_io.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/tools/graph_extractor.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/interface/kaHIP_interface.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/algorithms/strongly_connected_components.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/data_structure/graph_hierarchy.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/algorithms/topological_sort.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/algorithms/push_relabel.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/tools/quality_metrics.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/tools/misc.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/tools/partition_snapshooter.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/tools/random_functions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/graph_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/w_cycles/wcycle_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/coarsening.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/contraction.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/edge_rating/edge_ratings.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/matching/matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/matching/random_matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/matching/gpa/path.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/matching/gpa/gpa_matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/matching/gpa/path_set.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/clustering/node_ordering.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/coarsening/clustering/size_constraint_label_propagation.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/initial_partitioning.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/initial_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/initial_partition_bipartition.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/initial_refinement/initial_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/bipartition.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/initial_partitioning/initial_node_separator.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/uncoarsening.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/separator/area_bfs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/separator/vertex_separator_algorithm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/separator/vertex_separator_flow_solver.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/greedy_neg_cycle.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/problem_factory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/mixed_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/label_propagation_refinement/label_propagation_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/two_way_flow_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/boundary_bfs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/flow_solving_kernel/cut_flow_problem_solver.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/most_balanced_minimum_cuts/most_balanced_minimum_cuts.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/quotient_graph_scheduling.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/simple_quotient_graph_scheduler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/active_block_quotient_graph_scheduler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_core.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph_fabric.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/advanced_models.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/kway_graph_refinement/multitry_kway_fm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/node_separators/greedy_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/node_separators/fm_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/node_separators/localized_fm_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/algorithms/cycle_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/cycle_improvements/cycle_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/lib/partition/uncoarsening/refinement/tabu_search/tabu_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/lib/modKaHIPFiles/CMakeFiles/libkaffpa.dir/__/__/extern/KaHIP/extern/argtable3-3.2.2/argtable3.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/tools/mmwis_log.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/ils/ils.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/ils/local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/hils/Solution.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/greedy_mis.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/greedy_vertex.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/greedy_mwis.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/greedy_weighted_vertex.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/random_mis.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/initial_mis.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/initial_mis/cyclicFast.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/data_structure/mis_permutation.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/data_structure/candidate_list.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/data_structure/operation_log.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/data_structure/priority_queues/bucket_array.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/kernel/branch_and_reduce_algorithm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/kernel/cout_handler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/kernel/reductions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/struction_reductions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/struction_branch_and_reduce_algorithm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/extended_struction.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/key_functions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/mwis_finder.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/extern/struction/lib/mis/kernel/original_struction.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/max_flow/bipartite_weighted_vertex_cover.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/population_mis.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/reduction_evolution.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/separator_pool.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/combine/combine.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/combine/cover_combine.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/combine/separator_combine.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/etud/Documents/Stage/KaMIS/build-mmwis-Desktop-Debug/CMakeFiles/lib_mmwis.dir/lib/mis/evolutionary/combine/multiway_combine.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extern/struction/app/struction_checker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

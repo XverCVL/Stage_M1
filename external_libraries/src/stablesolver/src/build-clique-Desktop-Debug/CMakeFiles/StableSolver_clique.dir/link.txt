@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStableSolver_clique.a CMakeFiles/StableSolver_clique.dir/instance.o CMakeFiles/StableSolver_clique.dir/solution.o CMakeFiles/StableSolver_clique.dir/algorithm_formatter.o
+/usr/bin/ranlib libStableSolver_clique.a
