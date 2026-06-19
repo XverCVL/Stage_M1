@@ -1,7 +1,6 @@
 # --- Build & Binaries ---
 build/
 doc/
-lib/
 out/
 dist/
 *.exe
@@ -9,7 +8,6 @@ dist/
 *.app
 *.o
 *.obj
-*.a
 *.lib
 *.so
 *.dylib

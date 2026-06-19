@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibnodeordering.a CMakeFiles/libnodeordering.dir/__/__/extern/KaHIP/lib/node_ordering/min_degree_ordering.cpp.o CMakeFiles/libnodeordering.dir/__/__/extern/KaHIP/lib/node_ordering/nested_dissection.cpp.o CMakeFiles/libnodeordering.dir/__/__/extern/KaHIP/lib/node_ordering/ordering_tools.cpp.o CMakeFiles/libnodeordering.dir/__/__/extern/KaHIP/lib/node_ordering/reductions.cpp.o
+/usr/bin/ranlib liblibnodeordering.a
