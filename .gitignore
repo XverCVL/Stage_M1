@@ -1,0 +1,59 @@
+# --- Build & Binaries ---
+build/
+doc/
+bin/
+lib/
+out/
+dist/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# --- Precompiled Headers & Debug ---
+*.gch
+*.pch
+*.pdb
+*.d
+
+# --- IDEs & Editors ---
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+.vs/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Temporaries ---
+*.log
+*.tmp
+*.temp
+
+# --- LaTeX ---
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+
+main/
+
+.cache/
+
+FlameGraph
+
+perf.data
+perf.data.old
